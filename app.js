@@ -35,7 +35,7 @@ const port = process.env.PORT || 3000;
 // app.use('/api', bookRouter);
 
 app.get('/', (req, res) => {
-  res.send('Welcome home RJ');
+  res.send('Welcome IS311');
 });
 
 app.listen(port, () => {
